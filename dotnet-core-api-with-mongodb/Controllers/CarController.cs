@@ -11,7 +11,7 @@ namespace dotnet_core_api_with_mongodb.Controllers
             return View();
         }
 
-        // GET: CarController/Details/5
+        // GET: CarController/Details/5-- new branch
         public ActionResult Details(int id)
         {
             return View();
