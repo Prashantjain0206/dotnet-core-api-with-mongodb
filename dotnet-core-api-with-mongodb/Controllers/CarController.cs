@@ -5,7 +5,7 @@ namespace dotnet_core_api_with_mongodb.Controllers
 {
     public class CarController : Controller
     {
-        // GET: CarController
+        // GET: CarController- comment
         public ActionResult Index()
         {
             return View();
