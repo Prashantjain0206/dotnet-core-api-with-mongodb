@@ -5,13 +5,13 @@ namespace dotnet_core_api_with_mongodb.Controllers
 {
     public class CarController : Controller
     {
-        // GET: Car Controller
+        // GET: Car Controller- change 1
         public ActionResult Index()
         {
             return View();
         }
 
-        // GET: CarController/Details/5
+        // GET: CarController/Details/5 -- change 2
         public ActionResult Details(int id)
         {
             return View();
